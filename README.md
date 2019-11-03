@@ -1,3 +1,5 @@
+[![GitHub](https://img.shields.io/github/license/erik-white/actions-test-python?color=blue)](https://github.com/Erik-White/actions-test-python/blob/master/LICENSE)
+
 # actions-test-python
 Testing out GitHub actions with a minimal Python package
 
