@@ -15,7 +15,7 @@ def read(*names, **kwargs):
 setup(
     python_requires = ">3.7",
     name = "actions_test_python",
-    version = "0.0.2",
+    version = "0.0.3",
     description = "Testing out GitHub actions with a minimal Python package",
     long_description = "%s\n%s" % (
         re.compile("^.. start-badges.*^.. end-badges", re.M | re.S).sub("", read("README.md")),
