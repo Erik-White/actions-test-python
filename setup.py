@@ -1,7 +1,7 @@
 import io
 import re
 from pathlib import Path
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 
 def read(*names, **kwargs):
@@ -26,7 +26,7 @@ setup(
     author = "Erik White",
     author_email = "",
     license = "GPL-3.0",
-    packages = find_packages(where = "src", exclude = ["tests", "tests.*"]),
+    packages = find_namespace_packages(where = "src", exclude = ["tests", "tests.*"]),
     package_dir = {"": "src"},
     zip_safe = False,
     install_requires = [
