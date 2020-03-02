@@ -13,5 +13,4 @@ Currently implements two actions:
 * On any PUSH to the `docs` directory on `master`:
 
    Build the mkdocs static site and publish to the `gh-pages` branch
-
-   Build the package and upload to PyPi test
+   Site is then available at: https://erik-white.github.io/actions-test-python/
