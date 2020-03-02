@@ -1,0 +1,5 @@
+site_name: actions-test-python
+repo_url: https://github.com/Erik-White/actions-test-python/
+site_description: Testing GitHub Actions with Python
+nav:
+    - Home: index.md
