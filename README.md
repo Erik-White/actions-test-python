@@ -10,3 +10,8 @@ Currently implements two actions:
 * On new RELEASE:
 
    Build the package and upload to PyPi test
+* On any PUSH to the `docs` directory on `master`:
+
+   Build the mkdocs static site and publish to the `gh-pages` branch
+
+   Build the package and upload to PyPi test
